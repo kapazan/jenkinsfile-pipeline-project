@@ -10,7 +10,6 @@ pipeline {
         stage('run') {
             steps {
                 echo 'Running the compiled java code.'
-                echo 'run java hello without extension'
                 sh 'java Hello'
             }
         }
