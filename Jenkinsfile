@@ -11,7 +11,7 @@ pipeline {
             steps {
                 echo 'Running the compiled java code.'
                 echo 'run java hello without extension'
-                sh 'java hello.java'
+                sh 'java Hello'
             }
         }
     }
