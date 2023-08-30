@@ -4,14 +4,14 @@ pipeline {
         stage('build') {
             steps {
                 echo 'Compiling the java source code'
-                sh 'javac Hello.java'
+                sh 'javac hello.java'
             }
         }
         stage('run') {
             steps {
                 echo 'Running the compiled java code.'
                 echo 'run java hello without extension'
-                sh 'java hello'
+                sh 'java hello.java'
             }
         }
     }
