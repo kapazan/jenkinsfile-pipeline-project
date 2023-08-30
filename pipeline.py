@@ -1,2 +1,1 @@
-print('my first blabala...')
-print("my second blabla")
+print("hello * * * * * 30/08")
